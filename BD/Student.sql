@@ -1,6 +1,6 @@
 --drop database StudentDB
---create database StudentDB
---use StudentDB
+create database StudentDB
+use StudentDB
 create table Student(
 StudentId int not null primary key,
 name varchar(50),
