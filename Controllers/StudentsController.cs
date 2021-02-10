@@ -27,32 +27,32 @@ namespace CrudUsingDapper.Controllers
             return _oStudentService.Gets();
         }
 
-        //// GET api/<StudentsController>/5
-        //[HttpGet("{id}")]
-        //public Student Get(int id)
-        //{
-        //    return _oStudentService.Get(id);
-        //}
+        // GET api/<StudentsController>/5
+        [HttpGet("{id}", Name = "Get")]
+        public Student Get(int id)
+        {
+            return _oStudentService.Get(id);
+        }
+         
+        // POST api/<StudentsController>
+        [HttpPost]
+        public Student Post([FromBody] Student oStudent)
+        {
+            if (ModelState.IsValid) return _oStudentService.Save(oStudent);
+            return null;
+        }
 
-        //// POST api/<StudentsController>
-        //[HttpPost]
-        //public Student Post([FromBody] Student oStudent)
-        //{
-        //    if (ModelState.IsValid) return _oStudentService.Save(oStudent);
-        //    return null;
-        //}
+        // PUT api/<StudentsController>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
+        {
+        }
 
-        //// PUT api/<StudentsController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/<StudentsController>/5
-        //[HttpDelete("{id}")]
-        //public string Delete(int id)
-        //{
-        //    return _oStudentService.Delete(id);
-        //}
+        // DELETE api/<StudentsController>/5
+        [HttpDelete("{id}")]
+        public string Delete(int id)
+        {
+            return _oStudentService.Delete(id);
+        }
     }
 }

@@ -8,9 +8,9 @@ namespace CrudUsingDapper.IServices
 {
     public interface IStudentService
     {
-        //Student Save(Student oStudent);
+        Student Save(Student oStudent);
         List<Student> Gets();
-        //Student Get(int studenId);
-        //string Delete(int studenId);
+        Student Get(int studenId);
+        string Delete(int studenId);
     }
 }
