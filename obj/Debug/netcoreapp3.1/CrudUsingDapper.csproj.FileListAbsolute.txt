@@ -88,7 +88,6 @@ C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netc
 C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\obj\Debug\netcoreapp3.1\CrudUsingDapper.csprojAssemblyReference.cache
 C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\CrudUsingDapper.exe
@@ -164,3 +163,17 @@ C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\toshi\Documents\GitHub\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Roberto Loaiza\Desktop\progrmacion tesis\CrudUsingDapper\obj\Debug\netcoreapp3.1\CrudUsingDapper.csprojAssemblyReference.cache

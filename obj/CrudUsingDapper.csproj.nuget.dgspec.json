@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\toshi\\Documents\\GitHub\\CrudUsingDapper\\CrudUsingDapper.csproj": {}
+    "C:\\Users\\Roberto Loaiza\\Desktop\\progrmacion tesis\\CrudUsingDapper\\CrudUsingDapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\toshi\\Documents\\GitHub\\CrudUsingDapper\\CrudUsingDapper.csproj": {
+    "C:\\Users\\Roberto Loaiza\\Desktop\\progrmacion tesis\\CrudUsingDapper\\CrudUsingDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\toshi\\Documents\\GitHub\\CrudUsingDapper\\CrudUsingDapper.csproj",
+        "projectUniqueName": "C:\\Users\\Roberto Loaiza\\Desktop\\progrmacion tesis\\CrudUsingDapper\\CrudUsingDapper.csproj",
         "projectName": "CrudUsingDapper",
-        "projectPath": "C:\\Users\\toshi\\Documents\\GitHub\\CrudUsingDapper\\CrudUsingDapper.csproj",
-        "packagesPath": "C:\\Users\\toshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\toshi\\Documents\\GitHub\\CrudUsingDapper\\obj\\",
+        "projectPath": "C:\\Users\\Roberto Loaiza\\Desktop\\progrmacion tesis\\CrudUsingDapper\\CrudUsingDapper.csproj",
+        "packagesPath": "C:\\Users\\Roberto Loaiza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roberto Loaiza\\Desktop\\progrmacion tesis\\CrudUsingDapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\toshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Roberto Loaiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[2.0.78, )"
             },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.3, )"
@@ -51,6 +55,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [

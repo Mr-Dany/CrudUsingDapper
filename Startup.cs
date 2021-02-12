@@ -1,9 +1,11 @@
 using CrudUsingDapper.Common;
 using CrudUsingDapper.IServices;
+using CrudUsingDapper.Seguridad;
 using CrudUsingDapper.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -31,8 +33,12 @@ namespace CrudUsingDapper
             services.AddControllers();
             services.AddSingleton<IConfiguration>(Configuration);
             Global.ConnectionString = Configuration.GetConnectionString("StudentDB");
-            
             services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<ITipo_usuariosService, Tipo_usuariosService>();
+
+
+            services.AddScoped<IJwtGenerator, JwtGenerator>();
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +54,8 @@ namespace CrudUsingDapper
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

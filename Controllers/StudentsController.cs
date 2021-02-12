@@ -1,5 +1,6 @@
 ﻿using CrudUsingDapper.IServices;
 using CrudUsingDapper.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,7 @@ namespace CrudUsingDapper.Controllers
 
         // GET: api/<StudentsController>
         [HttpGet]
+        [Authorize]
         public IEnumerable<Student> Get()
         {
             return _oStudentService.Gets();
